@@ -1,6 +1,6 @@
 <div align="center">
 
-# Guga Lively / 生动咕嘎
+# 活泼版本咕咕嘎嘎
 
 <img src="qa/guga-lively-waving.gif" alt="Guga Lively 挥手预览" width="260">
 
