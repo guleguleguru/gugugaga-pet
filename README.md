@@ -1,15 +1,18 @@
-# Gugugaga Pet
+# Guga Lively
 
-Codex custom pet package for `guga-lively`.
+<p align="center">
+  <img src="qa/guga-lively-waving.gif" alt="Guga Lively waving" width="260">
+</p>
 
-## Package
+Guga Lively is a tiny Gugugaga-inspired Codex pet: round penguin suit, sleepy-cute expressions, quick little motions, and the restored waving action.
 
-- Installable pet folder: `guga-lively/`
-- Downloadable archive: `dist/guga-lively.zip`
-- Preview contact sheet: `qa/contact-sheet.png`
-- Waving preview video: `qa/videos/jumping.mp4`
+## Get The Pet
 
-## Contents
+Download the ready-to-use archive:
+
+[dist/guga-lively.zip](dist/guga-lively.zip)
+
+Or use the installable folder directly:
 
 ```text
 guga-lively/
@@ -17,4 +20,14 @@ guga-lively/
   spritesheet.webp
 ```
 
-The current build restores the previous waving action for the `jumping` row and keeps the cleaned transparent spritesheet.
+## What's Inside
+
+- `guga-lively/pet.json` defines the custom Codex pet.
+- `guga-lively/spritesheet.webp` contains the final cleaned 8x9 animation atlas.
+- `qa/guga-lively-waving.gif` is the cute README preview.
+- `qa/contact-sheet.png` shows every animation row at a glance.
+- `qa/videos/jumping.mp4` previews the restored waving action.
+
+## Build Note
+
+This build keeps the transparent, cleaned `guga-lively` spritesheet and restores the previous waving action for the `jumping` row.
