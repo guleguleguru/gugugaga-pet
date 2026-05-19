@@ -14,7 +14,7 @@
   <img alt="Format" src="https://img.shields.io/badge/Sprite-WEBP-38bdf8?style=for-the-badge">
 </p>
 
-[下载 ZIP](dist/guga-lively.zip) · [查看完整动作表](qa/contact-sheet.png) · [待机 MP4](qa/videos/idle.mp4) · [等待 MP4](qa/videos/waiting.mp4)
+[下载 ZIP](dist/guga-lively.zip) · [查看完整动作表](qa/contact-sheet.png) · [待机 MP4](qa/videos/idle.mp4) · [哈欠 GIF](qa/guga-lively-yawn.gif)
 
 </div>
 
@@ -24,7 +24,7 @@
 
 `guga-lively` 是一个 Codex 自定义宠物包：黑色企鹅外套、圆滚滚身体、困困表情、快速小动作，还有挥手动作。
 
-这版没有重新生成素材，只把现有帧重新编排成更可爱的循环：待机时会抱手、眨眼、闭眼笑；等待时会捂嘴、犯困、再恢复精神；审阅时会歪头观察。
+这版没有重新生成素材，只把现有帧重新编排成更可爱的循环：待机时会抱手、眨眼、闭眼笑；等待时会捂嘴、圆嘴、闭眼张嘴，把哈欠表现得更清楚；审阅时会歪头观察。
 
 ## 立刻安装
 
@@ -60,7 +60,7 @@ unzip -o /tmp/guga-lively.zip -d ~/.codex/pets/guga-lively
 | `waving` | 招手互动 |
 | `jumping` | 已恢复为之前那版经典挥手感动作 |
 | `failed` | 按用户参考图替换过的委屈失败表情 |
-| `waiting` | 重新编排为捂嘴、犯困、眨眼、恢复精神 |
+| `waiting` | 重新编排为捂嘴准备、圆嘴吸气、闭眼张嘴、困困收尾，哈欠更明显 |
 | `running` | 通用移动循环 |
 | `review` | 重新编排为歪头观察、闭眼思考、再回正 |
 
@@ -77,6 +77,7 @@ dist/
 qa/
   guga-lively-waving.gif
   guga-lively-cute-idle.gif
+  guga-lively-yawn.gif
   contact-sheet.png
   videos/idle.mp4
   videos/waiting.mp4
@@ -88,7 +89,7 @@ qa/
 
 - 最终安装包：`guga-lively/pet.json` + `guga-lively/spritesheet.webp`
 - 精灵图规格：`1536 x 1872`，8 列 x 9 行
-- 当前版本：已清理绿幕边缘，已恢复旧版挥手动作，并基于现有素材重编排了更可爱的 `idle`、`waiting`、`review`
+- 当前版本：已清理绿幕边缘，已恢复旧版挥手动作，并基于现有素材重编排了更可爱的 `idle`、`review` 和更明显的 `waiting` 哈欠
 - 校验结果：`review_ok=true`，`validation_ok=true`
 
 ## 鸣谢
