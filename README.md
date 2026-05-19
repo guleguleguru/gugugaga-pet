@@ -2,10 +2,10 @@
 
 # 活泼版本咕咕嘎嘎
 
-<img src="qa/guga-lively-waving.gif" alt="Guga Lively 挥手预览" width="260">
+<img src="qa/guga-lively-cute-idle.gif" alt="Guga Lively 可爱待机预览" width="260">
 
 **会在 Codex 里陪你工作的咕咕嘎嘎小企鹅。**<br>
-软萌、犯困、会挥手，也会在你忙的时候悄悄动起来。
+软萌、犯困、会挥手，也会在你忙的时候悄悄动起来。新版用现有素材重新编排了待机、等待和审阅动作，更像一只会撒娇的小企鹅。
 
 <p>
   <img alt="Codex Pet" src="https://img.shields.io/badge/Codex-Pet-111827?style=for-the-badge">
@@ -14,7 +14,7 @@
   <img alt="Format" src="https://img.shields.io/badge/Sprite-WEBP-38bdf8?style=for-the-badge">
 </p>
 
-[下载 ZIP](dist/guga-lively.zip) · [查看完整动作表](qa/contact-sheet.png) · [挥手 MP4](qa/videos/jumping.mp4)
+[下载 ZIP](dist/guga-lively.zip) · [查看完整动作表](qa/contact-sheet.png) · [待机 MP4](qa/videos/idle.mp4) · [等待 MP4](qa/videos/waiting.mp4)
 
 </div>
 
@@ -24,7 +24,7 @@
 
 `guga-lively` 是一个 Codex 自定义宠物包：黑色企鹅外套、圆滚滚身体、困困表情、快速小动作，还有挥手动作。
 
-它适合放在 Codex 里当一个不吵闹但很有存在感的桌面小伙伴。
+这版没有重新生成素材，只把现有帧重新编排成更可爱的循环：待机时会抱手、眨眼、闭眼笑；等待时会捂嘴、犯困、再恢复精神；审阅时会歪头观察。
 
 ## 立刻安装
 
@@ -55,14 +55,14 @@ unzip -o /tmp/guga-lively.zip -d ~/.codex/pets/guga-lively
 
 | 状态 | 说明 |
 | --- | --- |
-| `idle` | 待机小动作，适合不点击时自然播放 |
+| `idle` | 重新编排为开心、抱手、犯困、闭眼笑的可爱循环 |
 | `running-right` / `running-left` | 左右移动 |
 | `waving` | 招手互动 |
 | `jumping` | 已恢复为之前那版经典挥手感动作 |
 | `failed` | 按用户参考图替换过的委屈失败表情 |
-| `waiting` | 等待时更丰富的闲置动作 |
+| `waiting` | 重新编排为捂嘴、犯困、眨眼、恢复精神 |
 | `running` | 通用移动循环 |
-| `review` | 审阅/观察状态 |
+| `review` | 重新编排为歪头观察、闭眼思考、再回正 |
 
 ## 包里有什么
 
@@ -76,7 +76,11 @@ dist/
 
 qa/
   guga-lively-waving.gif
+  guga-lively-cute-idle.gif
   contact-sheet.png
+  videos/idle.mp4
+  videos/waiting.mp4
+  videos/review.mp4
   videos/jumping.mp4
 ```
 
@@ -84,7 +88,7 @@ qa/
 
 - 最终安装包：`guga-lively/pet.json` + `guga-lively/spritesheet.webp`
 - 精灵图规格：`1536 x 1872`，8 列 x 9 行
-- 当前版本：已清理绿幕边缘，已恢复旧版挥手动作
+- 当前版本：已清理绿幕边缘，已恢复旧版挥手动作，并基于现有素材重编排了更可爱的 `idle`、`waiting`、`review`
 - 校验结果：`review_ok=true`，`validation_ok=true`
 
 ## 鸣谢
